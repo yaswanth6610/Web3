@@ -7,6 +7,7 @@ const hash = crypto.createHash("sha256").update(input);
 const has1 = crypto.createHash("sha256").update(input).digest("hex");
 
 console.log(hash);
+
 console.log(has1);
 
 /*
